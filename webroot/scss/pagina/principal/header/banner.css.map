@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,0FAA0F;AAE1F,qBAAqB;AACrB,AAAA,OAAO,CAAC;EACN,kBAAkB;EAClB,KAAK,EAAC,KAAK;EACX,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,GAAG;EACR,MAAM,EAAE,eAAe;EACvB,OAAO,EAAC,UAAU;EAClB,0BAA0B;EAC1B,SAAS,EAAC,IAAI;EACd,KAAK,EAAE,KAAK;EACZ,4BAA4B;CAC7B",
+    "sources": [
+        "banner.scss"
+    ],
+    "names": [],
+    "file": "banner.css"
+}

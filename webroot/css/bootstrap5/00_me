@@ -1,0 +1,15 @@
+Version 5
+
+Compiled CSS and JS
+
+https://getbootstrap.com/docs/5.0/getting-started/download/
+
+
+------------------------ CAMBIOS -------------------------------
+
+TABLA
+
+ZEBRA ---> Primary
+
+.table-primary {
+	--bs-table-striped-bg: #c5d7f2; ---> #FFFFFF;

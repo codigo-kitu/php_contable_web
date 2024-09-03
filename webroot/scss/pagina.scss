@@ -1,0 +1,15 @@
+/*---------------------------------------- PAGINA --------------------------------------*/
+
+@import "pagina/principal";
+
+@import "pagina/principal/main";
+@import "pagina/principal/header";
+
+@import "pagina/principal/header/banner";
+@import "pagina/principal/header/sub_header";
+@import "pagina/principal/header/sub_header_links";
+@import "pagina/principal/header/sub_header_imagetree";
+@import "pagina/principal/header/sub_header_imageslinks";
+
+@import "pagina/principal/main/content";
+@import "pagina/principal/main/left_sidebar";

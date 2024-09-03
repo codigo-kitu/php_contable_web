@@ -1,0 +1,28 @@
+/*---------------------------------------- Left --------------------------------------*/
+.left {
+  float: left;
+  width: 200px;
+  margin-top: 0px;
+  background: #004990;
+}
+
+.left h2 {
+  margin: 10px 0 0 0;
+  padding-left: 10px;
+  height: 28px;
+  line-height: 28px;
+  color: #fff;
+  font-size: 12px;
+  background: #788BBD;
+}
+
+.left ul {
+  padding: 10px 0 15px 20px;
+  list-style-type: square;
+  color: #788BBD;
+}
+
+div.left {
+  background: #EFF3FE;
+}
+/*# sourceMappingURL=left.css.map */

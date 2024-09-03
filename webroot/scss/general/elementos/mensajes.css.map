@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,4FAA4F;AAE5F,AAAA,YAAY,CAAC;EACZ,KAAK,EAAE,KAAK;EACZ,WAAW,EAAE,IAAI;EACjB;;;;oBAImB;CACnB;;AAED,AAAA,mBAAmB,CAAC;EACnB,KAAK,EAAE,MAAM;EACb,WAAW,EAAE,IAAI;EACjB;;;;oBAImB;CACnB;;AAED,AAAA,aAAa,CAAC;EACb,KAAK,EAAE,GAAG;EACV,WAAW,EAAE,IAAI;EACjB;;;;oBAImB;CACnB;;AAED,AAAA,kBAAkB,CAAC;EAClB,gCAAgC;EAChC;;;;GAIE;EAEF;;;;oBAImB;CACnB",
+    "sources": [
+        "mensajes.scss"
+    ],
+    "names": [],
+    "file": "mensajes.css"
+}

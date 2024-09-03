@@ -1,0 +1,60 @@
+/*---------------------------------------- TITULOS --------------------------------------*/
+.busquedatitulo {
+  /*background: #89A8F0;*/
+  background-image: url("../../webroot/img/Imagenes/fondo-cabecera-tabla.gif");
+  color: #192666;
+}
+
+td.busquedatitulocampo {
+  /*background: #A0B9F3;
+	color: #192666;
+	*/
+  color: #192666;
+}
+
+.busquedatitulocampo {
+  font-size: 13px;
+  color: #004990;
+  padding: 0px 0 0 0px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+td.titulocampo {
+  /*color: #004990;*/
+}
+
+td.titulocampo h2 {
+  /*color: #004990;*/
+  background-image: url("../../webroot/img/Imagenes/fondo-cabecera-tabla.gif");
+  /*REDEFINIR h2 ELEMENT*/
+  display: block;
+  /*font-size: 1em;*/
+  font-size: 12px;
+  margin-top: 0em;
+  /*1.33em;*/
+  margin-bottom: 0em;
+  /*1.33em;*/
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+.titulobanner {
+  font-size: 20px;
+  color: white;
+  /*color: #000000;*/
+}
+
+span.titulotabla {
+  /*background-color: #D8D8D8;*/
+  font-size: 13px;
+  font-weight: bold;
+  color: blue;
+}
+
+.titulotab a {
+  font-size: 13px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=titulos.css.map */

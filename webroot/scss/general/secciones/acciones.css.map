@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,4FAA4F;AAE5F,AAAA,SAAS,CAAC;EACT,MAAM,EAAE,IAAI;CACZ;;AAED,AAAA,SAAS,CAAC,EAAE,CAAC;EACZ,SAAS,EAAE,IAAI;EACf,cAAc,EAAE,IAAI;EACpB,OAAO,EAAE,aAAa;EACtB,KAAK,EAAE,OAAO;CACd;;AAED,AAAA,SAAS,CAAC,EAAE,CAAC;EACZ,SAAS,EAAE,IAAI;EACf,cAAc,EAAE,IAAI;EACpB,OAAO,EAAE,aAAa;EACtB,KAAK,EAAE,OAAO;CACd",
+    "sources": [
+        "acciones.scss"
+    ],
+    "names": [],
+    "file": "acciones.css"
+}

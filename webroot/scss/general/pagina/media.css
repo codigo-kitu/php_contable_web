@@ -1,0 +1,8 @@
+/*---------------------------------------- MEDIA --------------------------------------*/
+@media print {
+  * {
+    background-color: white !important;
+    background-image: none !important;
+  }
+}
+/*# sourceMappingURL=media.css.map */

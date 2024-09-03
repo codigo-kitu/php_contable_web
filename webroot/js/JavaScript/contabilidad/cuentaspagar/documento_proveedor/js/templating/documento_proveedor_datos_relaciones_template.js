@@ -1,0 +1,286 @@
+
+<script id="documento_proveedor_datos_relaciones_template" type="text/x-handlebars-template">
+
+
+<div id="divTablaDatosAuxiliardocumento_proveedorsAjaxWebPart" style="width:100%;height:100%;overflow:auto;">
+
+{{#each documento_proveedorsReporte}}
+
+			<table id="tabledocumento_proveedor{{id}}" {{../strAuxStyleBackgroundTablaPrincipal}} width="{{../strTamanioTablaPrincipal}}" align="center" cellspacing="0" cellpadding="0" border="{{../borderValue}}">
+						
+				<tr>
+					<td align="center" {{../strAuxStyleBackgroundTitulo}} >
+						<p class="tituloficha">
+							<b>{{strtoupper id}}</b>
+						</p>
+					</td>
+				</tr>
+			
+				
+
+			{{#if (existeCadenaArrayOrderBy 'Proveedor' ../arrOrderBy ../bitParaReporteOrderBy) }}
+				
+				<tr>
+					<td>
+						<table width="100%" border="0" cellpadding="0" cellspacing="0">
+							<tr {{../strAuxStyleBackgroundContenido}}>
+								<td width="20%" {{../strAuxStyleBackgroundContenidoCabecera}} >
+									<b>- Proveedor</b>
+								</td>
+								<td>{{trim id_proveedor_Descripcion}}
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			{{/if}}
+
+			{{#if (existeCadenaArrayOrderBy 'Documento' ../arrOrderBy ../bitParaReporteOrderBy) }}
+				
+				<tr>
+					<td>
+						<table width="100%" border="0" cellpadding="0" cellspacing="0">
+							<tr {{../strAuxStyleBackgroundContenido}}>
+								<td width="20%" {{../strAuxStyleBackgroundContenidoCabecera}} >
+									<b>- Documento</b>
+								</td>
+								<td>{{trim documento}}
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			{{/if}}				
+			</table>
+			
+			
+		<form id="frmTablaDatosdocumento_cliente" name="frmTablaDatosdocumento_cliente">
+			<div id="divTablaDatosAuxiliardocumento_clientesAjaxWebPart" style="{{style_div}}">
+
+				<input type="hidden" id="t{{strSufijo}}-maxima_fila" name="t{{strSufijo}}-maxima_fila" value="{{count documento_clientes}}">
+
+		{{#if (If_Not bitEsRelacionado)}}
+			
+			<table  id="tblTablaTitulodocumento_cliente" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td>
+						<span class="titulotabla">Documentos Clienteses</span>
+					</td>
+				</tr>
+			</table>
+		{{/if}}
+
+		<table id="tblTablaDatosdocumento_clientes" name="tblTablaDatosdocumento_clientes" class="{{class_table}}" cellpadding="3" cellspacing="3" style="{{style_tabla}}" border="1" rules="rows">
+
+		{{#if (If_Yes_AND_Not IS_DEVELOPING  bitEsRelacionado)}}
+			<caption>({{STR_PREFIJO_TABLE}} {{STR_TABLE_NAME}})</caption>
+		{{/if}}
+
+		
+			<thead>
+				<tr class="{{class_cabecera}}">
+		
+				
+		
+			<th class="cabecera_titulo_tabla" >
+				<pre class="cabecera_texto_titulo_tabla">ID__</pre>
+			</th>
+			<th class="cabecera_titulo_tabla columna_tabla_eli"  style="display:{{strPermisoEliminar}}">
+				<pre class="cabecera_texto_titulo_tabla">Eli</pre>
+			</th>
+			<th class="cabecera_titulo_tabla columna_tabla_sel" >
+				<pre class="cabecera_texto_titulo_tabla">Sel</pre>
+			</th>
+		
+		
+			<th class="cabecera_titulo_tabla"  style="display:none">
+				<pre class="cabecera_texto_titulo_tabla">UPDATED_AT</pre>
+			</th>
+		
+		
+			<th class="cabecera_titulo_tabla"  style="display:none">
+				<pre class="cabecera_texto_titulo_tabla">UPDATED_AT</pre>
+			</th>
+		
+			<th class="cabecera_titulo_tabla" >
+				<pre class="cabecera_texto_titulo_tabla">Documento Proveedor<a onclick="jQuery('#form-id_documento_proveedor_img').trigger('click' );"><img id="form{{strSufijo}}-id_documento_proveedor_img2" name="form{{strSufijo}}-id_documento_proveedor_img2" class="imagen_actualizar" title="ACTUALIZAR DATOS RELACIONADOS" src="{{PATH_IMAGEN}}Imagenes/actualizardatos.gif" alt="Actualizar Datos" border="" height="15" width="15"></a><a onclick="documento_cliente_webcontrol1.abrirBusquedaParadocumento_proveedor('id_documento_proveedor');"><img id="form{{strSufijo}}-id_documento_proveedor_img_busqueda2" name="form{{strSufijo}}-id_documento_proveedor_img_busqueda2" title="Buscar Documentos Proveedores" style="width: 15px; height: 15px;text-align: center; visibility:visible;" src="{{PATH_IMAGEN}}Imagenes/buscar.gif" width="15" height="15"/></a></pre>
+			</th>
+		
+			<th class="cabecera_titulo_tabla" >
+				<pre class="cabecera_texto_titulo_tabla">Cliente<a onclick="jQuery('#form-id_cliente_img').trigger('click' );"><img id="form{{strSufijo}}-id_cliente_img2" name="form{{strSufijo}}-id_cliente_img2" class="imagen_actualizar" title="ACTUALIZAR DATOS RELACIONADOS" src="{{PATH_IMAGEN}}Imagenes/actualizardatos.gif" alt="Actualizar Datos" border="" height="15" width="15"></a><a onclick="documento_cliente_webcontrol1.abrirBusquedaParacliente('id_cliente');"><img id="form{{strSufijo}}-id_cliente_img_busqueda2" name="form{{strSufijo}}-id_cliente_img_busqueda2" title="Buscar Cliente" style="width: 15px; height: 15px;text-align: center; visibility:visible;" src="{{PATH_IMAGEN}}Imagenes/buscar.gif" width="15" height="15"/></a></pre>
+			</th>
+		
+			<th class="cabecera_titulo_tabla" >
+				<pre class="cabecera_texto_titulo_tabla">Documento</pre>
+			</th>
+
+		{{#if (If_Not_AND_Not bitEsBusqueda  bitEsRelaciones)}}
+
+		{{/if}}
+		<th style="display:none" class="actions"></th>
+
+		
+				</tr>
+			</thead>
+		{{#if (If_Not bitEsRelacionado)}}
+
+		
+			<tfoot>
+				<tr class="{{class_cabecera}}">
+		
+				
+		
+			<th class="cabecera_titulo_tabla" >
+				<pre class="cabecera_texto_titulo_tabla">ID__</pre>
+			</th>
+			<th class="cabecera_titulo_tabla columna_tabla_eli"  style="display:{{strPermisoEliminar}}">
+				<pre class="cabecera_texto_titulo_tabla">Eli</pre>
+			</th>
+			<th class="cabecera_titulo_tabla columna_tabla_sel" >
+				<pre class="cabecera_texto_titulo_tabla">Sel</pre>
+			</th>
+		
+		
+			<th class="cabecera_titulo_tabla"  style="display:none">
+				<pre class="cabecera_texto_titulo_tabla">UPDATED_AT</pre>
+			</th>
+		
+		
+			<th class="cabecera_titulo_tabla"  style="display:none">
+				<pre class="cabecera_texto_titulo_tabla">UPDATED_AT</pre>
+			</th>
+		
+			<th class="cabecera_titulo_tabla" >
+				<pre class="cabecera_texto_titulo_tabla">Documento Proveedor<a onclick="jQuery('#form-id_documento_proveedor_img').trigger('click' );"><img id="form{{strSufijo}}-id_documento_proveedor_img2" name="form{{strSufijo}}-id_documento_proveedor_img2" class="imagen_actualizar" title="ACTUALIZAR DATOS RELACIONADOS" src="{{PATH_IMAGEN}}Imagenes/actualizardatos.gif" alt="Actualizar Datos" border="" height="15" width="15"></a><a onclick="documento_cliente_webcontrol1.abrirBusquedaParadocumento_proveedor('id_documento_proveedor');"><img id="form{{strSufijo}}-id_documento_proveedor_img_busqueda2" name="form{{strSufijo}}-id_documento_proveedor_img_busqueda2" title="Buscar Documentos Proveedores" style="width: 15px; height: 15px;text-align: center; visibility:visible;" src="{{PATH_IMAGEN}}Imagenes/buscar.gif" width="15" height="15"/></a></pre>
+			</th>
+		
+			<th class="cabecera_titulo_tabla" >
+				<pre class="cabecera_texto_titulo_tabla">Cliente<a onclick="jQuery('#form-id_cliente_img').trigger('click' );"><img id="form{{strSufijo}}-id_cliente_img2" name="form{{strSufijo}}-id_cliente_img2" class="imagen_actualizar" title="ACTUALIZAR DATOS RELACIONADOS" src="{{PATH_IMAGEN}}Imagenes/actualizardatos.gif" alt="Actualizar Datos" border="" height="15" width="15"></a><a onclick="documento_cliente_webcontrol1.abrirBusquedaParacliente('id_cliente');"><img id="form{{strSufijo}}-id_cliente_img_busqueda2" name="form{{strSufijo}}-id_cliente_img_busqueda2" title="Buscar Cliente" style="width: 15px; height: 15px;text-align: center; visibility:visible;" src="{{PATH_IMAGEN}}Imagenes/buscar.gif" width="15" height="15"/></a></pre>
+			</th>
+		
+			<th class="cabecera_titulo_tabla" >
+				<pre class="cabecera_texto_titulo_tabla">Documento</pre>
+			</th>
+
+		{{#if (If_Not_AND_Not bitEsBusqueda  bitEsRelaciones)}}
+
+		{{/if}}
+		<th style="display:none" class="actions"></th>
+
+		
+				</tr>
+			</tfoot>
+		{{/if}}
+
+		<tbody>
+
+		{{#if (Is_List_Exist documento_clientes)}}
+			{{#each documento_clientes}}
+
+				{{#if (If_NotText ../STR_TIPO_TABLA 'normal')}}
+					
+					<tr>
+					
+				{{else}}
+					
+
+					<tr class="{{getClassRowTableHtml i}}" {{getOnMouseOverHtml ../STR_TIPO_TABLA i}} >
+				{{/if}}
+
+				
+				<td class="elementotabla col_id" >
+					<a>
+					<table>
+						<tr>
+							<td>
+								{{id}}
+							</td>
+							<td>
+								<img class="imgseleccionardocumento_cliente" idactualdocumento_cliente="{{id}}" title="SELECCIONAR Documentos Clientes ACTUAL" src="{{../PATH_IMAGEN}}/Imagenes/seleccionar.gif" alt="Seleccionar" border="0" height="15" width="15">
+							</td>
+						</tr>
+					</table>
+					</a>
+				</td>
+
+				
+				<td class="elementotabla columna_tabla_eli col_id"  style="display:{{../strPermisoEliminar}}">
+					<a>
+					<table>
+						<tr>
+							<td>
+								{{id}}
+							</td>
+							<td>
+								<img class="imgeliminartabladocumento_cliente" idactualdocumento_cliente="{{id}}" title="ELIMINAR Documentos Clientes ACTUAL" src="{{../PATH_IMAGEN}}/Imagenes/eliminar.gif" alt="Eliminar" border="0" height="15" width="15">
+							</td>
+						</tr>
+					</table>
+					</a>
+				</td>
+
+				
+				<td class="elementotabla columna_tabla_sel col_id" >
+					<table>
+						<tr>
+							<td>
+								<input id="t-id_{{i}}" name="t-id_{{i}}" type="checkbox" class="chkb_id" title="SELECCIONAR Documentos Clientes ACTUAL" value="{{id}}"></input>
+							</td>
+							<td>
+								{{i}}
+							</td>
+						</tr>
+					</table>
+				</td>
+				
+					<td class="elementotabla col_created_at"  style="display:none"> 
+						{{ updated_at }}
+					</td>
+				
+					<td class="elementotabla col_updated_at"  style="display:none"> 
+						{{ updated_at }}
+					</td>
+				<td class="elementotabla col_id_documento_proveedor" > {{id_documento_proveedor_Descripcion}}</td>
+				<td class="elementotabla col_id_cliente" > {{id_cliente_Descripcion}}</td>
+				
+					<td class="elementotabla col_documento" > 
+						{{ documento }}
+					</td>
+
+				{{#if (If_Not_AND_Not ../bitEsBusqueda  ../bitEsRelaciones)}}
+
+				{{/if}}
+
+				<td style="display:none" class="actions"></td>
+
+				</tr>
+			{{/each}}
+		{{/if}}
+
+					</tbody>
+
+				</table>
+
+			</div>
+
+		</form>
+			
+{{/each}}
+				
+				
+	{{#if paraReporte}}			
+			
+				<table>
+					<tr>
+						<td>
+							<input type="button" onclick="{{proceso_print}}" style="visibility:visible" value="Imprimir" />
+						</td>
+					</tr>
+				</table>
+	{{/if}}
+	
+</div>
+
+
+</script>
+

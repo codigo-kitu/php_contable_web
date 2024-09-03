@@ -1,0 +1,13 @@
+/*---------------------------------------- SUB-HEADER --------------------------------------*/
+/* links cabecera */
+#subheader {
+  /*overflow:auto;*/
+  float: right;
+  margin-top: 0px;
+  clear: both;
+  border-top: 0px solid #000000;
+  border-bottom: 0px solid #000000;
+  height: 20px;
+  /*background-color: yellow;*/
+}
+/*# sourceMappingURL=sub_header.css.map */

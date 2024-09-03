@@ -1,0 +1,14 @@
+/*---------------------------------------- Footer --------------------------------------*/
+#footer {
+  height: 30px;
+  line-height: 30px;
+  background: #657983;
+  text-align: center;
+  font-size: 11px;
+  color: #fff;
+}
+
+#footer a {
+  color: #fff;
+}
+/*# sourceMappingURL=footer.css.map */

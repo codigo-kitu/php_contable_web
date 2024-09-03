@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,qGAAqG;AAErG,AAAA,iBAAiB,CAAC;EACjB,iBAAiB;EACjB,MAAM,EAAE,IAAI;EACZ,wBAAwB;EACxB,gBAAgB,EAAC,uDAAuD;CACxE;;AAED,AAAA,iBAAiB,CAAC,EAAE,CAAC;EACpB,SAAS,EAAE,IAAI;EACf,cAAc,EAAE,IAAI;EACpB,OAAO,EAAE,aAAa;EACtB,KAAK,EAAE,OAAO;CACd;;AAED,AAAA,iBAAiB,CAAC,IAAI,CAAC;EACtB,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,OAAO;EACd,WAAW,EAAE,IAEd;CAAC;;AAED,AAAA,iBAAiB,CAAC,EAAE,CAAC;EACpB,OAAO,EAAE,GAAG;CACZ",
+    "sources": [
+        "busquedas_cabeceras.scss"
+    ],
+    "names": [],
+    "file": "busquedas_cabeceras.css"
+}

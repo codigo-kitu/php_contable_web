@@ -1,0 +1,23 @@
+{
+    "name": "bydan/contabilidad0",
+    "description": "Contabilidad0 Php8 Composer",
+    "type": "library",
+    "license": "propietary",
+    "authors": [
+        {
+            "name": "bydan105",
+            "email": "bydan@hotmail.com"
+        }
+    ],
+    "minimum-stability": "RC",    
+    "require": {
+        "setasign/fpdf": "^1.8",
+        "dompdf/dompdf": "^1.0",
+        "phpoffice/phpspreadsheet": "^1.18"
+    },
+    "autoload": {
+        "psr-4": {
+            "com\\": "com/"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+/*---------------------------------------- Content --------------------------------------*/
+#content {
+  padding: 0 20px 20px 20px;
+}
+
+div.content {
+  background: #FFFFFF;
+}
+
+#content_relacionado {
+  padding: 0 0px 0px 0px;
+}
+
+#content_login {
+  padding: 0 0px 0px 0px;
+}
+
+.superrichpanelmantenimientoajaxwebpart {
+  /*background-image:url('../Imagenes/fondo.gif');*/
+}
+/*# sourceMappingURL=content.css.map */

@@ -1,0 +1,22 @@
+{
+  "name": "contabilidad",
+  "version": "1.1.1",
+  "description": "Sistema Contable",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass ./webroot/scss/general.scss ./webroot/scss/general.css && sass ./webroot/scss/pagina.scss ./webroot/scss/pagina.css"
+  },
+  "keywords": [
+    "contabilidad"
+  ],
+  "author": "ByDan",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jquery": "^3.5.5",
+    "sass": "^1.32.12"
+  }
+}

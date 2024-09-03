@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,8FAA8F;AAE9F,gBAAgB;AAChB,AAAA,YAAY,CAAC;EACX,QAAQ,EAAC,IAAI;EAEb;;;IAGE;EACF,gBAAgB;EAChB,iBAAiB;EAEjB,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,KAAK;EACb,6BAA6B;EAE7B;;;IAGE;CACH",
+    "sources": [
+        "left_sidebar.scss"
+    ],
+    "names": [],
+    "file": "left_sidebar.css"
+}

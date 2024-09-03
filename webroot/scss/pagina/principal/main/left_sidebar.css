@@ -1,0 +1,19 @@
+/*---------------------------------------- LEFT SIDE BAR -----------------------------------*/
+/* Arbol menu */
+#leftSidebar {
+  overflow: auto;
+  /*
+  overflow-x: scroll;
+  overflow-y: hidden;
+  */
+  /*float: left;*/
+  /*width: 200px;*/
+  width: 15%;
+  height: 625px;
+  /*background-color: yellow;*/
+  /*
+  margin: 0;
+  padding: 0;
+  */
+}
+/*# sourceMappingURL=left_sidebar.css.map */

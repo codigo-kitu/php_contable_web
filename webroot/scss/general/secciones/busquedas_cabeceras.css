@@ -1,0 +1,25 @@
+/*---------------------------------------- BUSQUEDA CABECERA --------------------------------------*/
+.busquedacabecera {
+  /*height: 25px;*/
+  height: 15px;
+  /*background: #045FB4;*/
+  background-image: url("../../../webroot/img/Imagenes/fondo-cabecera.gif");
+}
+
+.busquedacabecera h1 {
+  font-size: 14px;
+  letter-spacing: -1px;
+  padding: 23px 0 0 20px;
+  color: #B5C4E3;
+}
+
+.busquedacabecera font {
+  font-size: 12px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.busquedacabecera td {
+  padding: 0px;
+}
+/*# sourceMappingURL=busquedas_cabeceras.css.map */

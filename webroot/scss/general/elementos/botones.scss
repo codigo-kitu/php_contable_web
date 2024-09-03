@@ -1,0 +1,111 @@
+/*---------------------------------------- BOTONES --------------------------------------*/
+
+.botonnormal {
+    border: 1px solid #006;
+   /* background: #9cf;*/
+    background-image: url('../../../webroot/img/Imagenes/button.gif');
+    background-color:Transparent;
+}
+
+.botonactivo {
+    border: 1px solid #006;
+    background: hsl(113, 100%, 50%);
+}
+
+.ButtonImagenRecargarInformacion {
+    background-image: url('../../../webroot/img/Imagenes/recargar.gif');   
+    background-repeat: no-repeat;      
+    background-position:left;
+    border: none;   
+}
+
+.ButtonImagenOrderBy {
+    background-image: url('../../../webroot/img/Imagenes/orden.gif');   
+    background-repeat: no-repeat;      
+    background-position:left;
+    border: none;   
+}
+
+.ButtonImagenBuscar {
+    background-image: url('../../../webroot/img/Imagenes/buscar.gif');   
+    background-repeat: no-repeat;      
+    background-position:left;
+    border: none;   
+}
+
+ .ButtonImagenNuevoTablaPreparar {
+    background-image: url('../../../webroot/img/Imagenes/nuevoguardarcambios.gif');   
+    background-repeat: no-repeat; 
+    background-position:left;
+    border: none;
+}
+
+.ButtonImagenAnteriores {
+    background-image: url('../../../webroot/img/Imagenes/anteriores.gif');   
+    background-repeat: no-repeat; 
+    background-position:center;
+    border: none;
+}
+
+.ButtonImagenSiguientes {
+    background-image: url('../../../webroot/img/Imagenes/siguientes.gif');   
+    background-repeat: no-repeat; 
+    background-position:center;
+    border: none;
+}
+
+.ButtonImagenNuevoPreparar {
+    background-image: url('../../../webroot/img/Imagenes/nuevo.gif');   
+    background-repeat: no-repeat; 
+    background-position:left;
+    border: none;
+}
+
+.ButtonImagenGuardarCambios {
+    background-image: url('../../../webroot/img/Imagenes/guardarcambiostabla.gif');   
+    background-repeat: no-repeat; 
+    background-position:left;
+    border: none;
+}
+
+.ButtonImagenDuplicar {
+    background-image: url('../../../webroot/img/Imagenes/duplicar.gif');   
+    background-repeat: no-repeat;      
+    background-position:left;
+    border: none;   
+}
+
+.ButtonImagenCopiar {
+    background-image: url('../../../webroot/img/Imagenes/copiar.gif');   
+    background-repeat: no-repeat;      
+    background-position:left;
+    border: none;   
+}
+
+.ButtonImagenCerrarPagina {
+    background-image: url('../../../webroot/img/Imagenes/cerrar.gif');   
+    background-repeat: no-repeat;      
+    background-position:left;
+    border: none;   
+}
+
+.ButtonImagenActualizar {
+    background-image: url('../../../webroot/img/Imagenes/actualizar.gif');   
+    background-repeat: no-repeat;      
+    background-position:left;
+    border: none;   
+}
+
+.ButtonImagenEliminar {
+    background-image: url('../../../webroot/img/Imagenes/eliminar.gif');   
+    background-repeat: no-repeat;      
+    background-position:left;
+    border: none;   
+}
+
+.ButtonImagenCancelar {
+    background-image: url('../../../webroot/img/Imagenes/cancelar.gif');   
+    background-repeat: no-repeat;      
+    background-position:left;
+    border: none;   
+}

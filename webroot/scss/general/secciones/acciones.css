@@ -1,0 +1,19 @@
+/*---------------------------------------- ACCIONES --------------------------------------*/
+.acciones {
+  height: 90px;
+}
+
+.acciones h1 {
+  font-size: 28px;
+  letter-spacing: -1px;
+  padding: 23px 0 0 20px;
+  color: #000000;
+}
+
+.acciones h2 {
+  font-size: 12px;
+  letter-spacing: -1px;
+  padding: 23px 0 0 20px;
+  color: #000000;
+}
+/*# sourceMappingURL=acciones.css.map */

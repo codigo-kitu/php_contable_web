@@ -1,0 +1,45 @@
+.bodyclass {	
+	background-image:url('../Imagenes/fondo.gif');
+}
+
+.panelloginclass {	
+	/*background-image:url('../Imagenes/Logos/fondologin.gif');*/
+	text-align: center;
+	
+	-moz-box-shadow:0 0 50px #000000;
+	-webkit-box-shadow:0 0 50px #000000;
+    box-shadow:0 0 10px #000000;
+    
+    -moz-border-radius: 25px;
+	border-radius: 25px;
+}
+
+.panelgridloginclass {	
+	/*POSICION CENTRADA*/
+	margin-left: auto;   
+	margin-right: auto;   
+	width: 8em;
+	
+	/*FUENTE*/
+	font-size:15px;
+	color: #004990; 
+	font-weight: bolder;
+	/*
+	color: #104E8B; 
+	box-shadow: -10px -10px 0px #000;
+	border-radius: 5px;
+	padding: 5px 5px 5px 15px;
+	*/
+	/*
+	border: solid thick black;
+	border-width:2px;
+	border-radius: 0.3em;
+	box-shadow: black 0.5em 0.5em 0.3em
+	*/
+}
+
+.panelloginheaderclass {       
+	font-size:10px;
+	color: #104E8B; 
+	font-weight: bolder;
+}

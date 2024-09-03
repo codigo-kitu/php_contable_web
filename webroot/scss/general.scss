@@ -1,0 +1,33 @@
+/*---------------------------------------- PAGINA --------------------------------------*/
+
+@import "general/pagina/body";
+@import "general/pagina/content";
+@import "general/pagina/footer";
+@import "general/pagina/left";
+@import "general/pagina/media";
+@import "general/pagina/otros";
+@import "general/pagina/right";
+@import "general/pagina/slider";
+
+/*---------------------------------------- ELEMENTOS --------------------------------------*/
+
+@import "general/elementos/botones";
+@import "general/elementos/errores";
+@import "general/elementos/formularios";
+@import "general/elementos/fuentes";
+@import "general/elementos/links";
+@import "general/elementos/mensajes";
+@import "general/elementos/tablas";
+@import "general/elementos/tabs";
+
+/*---------------------------------------- SECCIONES --------------------------------------*/
+
+@import "general/secciones/acciones";
+@import "general/secciones/busquedas_cabeceras";
+@import "general/secciones/busquedas";
+@import "general/secciones/cabeceras";
+@import "general/secciones/elementos";
+@import "general/secciones/titulos";
+
+/*---------------------------------------- LOGIN --------------------------------------*/
+@import "general/login/login";

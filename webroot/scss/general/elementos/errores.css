@@ -1,0 +1,12 @@
+/*---------------------------------------- ERRORES --------------------------------------*/
+/*Validacion por campo*/
+.error {
+  color: red;
+  font-weight: bold;
+  /*font-size: 19px;
+	color: #000099;
+	padding: 5px 0 0 20px;
+	letter-spacing: -1px;
+	font-weight: 100;*/
+}
+/*# sourceMappingURL=errores.css.map */

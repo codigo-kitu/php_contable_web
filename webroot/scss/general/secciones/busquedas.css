@@ -1,0 +1,38 @@
+/*---------------------------------------- BUSQUEDA --------------------------------------*/
+tr.busqueda {
+  height: 90px;
+}
+
+.busqueda h1 {
+  font-size: 14px;
+  letter-spacing: -1px;
+  padding: 23px 0 0 20px;
+  color: #000000;
+}
+
+.busqueda h2 {
+  font-size: 14px;
+  color: #004990;
+  padding: 5px 0 0 20px;
+  letter-spacing: -1px;
+  font-weight: 100;
+}
+
+/*
+.busqueda span {
+	font-size: 12px;
+	color: #004990;
+	padding: 0px 0 0 0px;
+	letter-spacing: -1px;
+	font-weight: 100;
+}
+*/
+.busqueda tabla {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.busqueda td {
+  padding: 5px;
+}
+/*# sourceMappingURL=busquedas.css.map */

@@ -1,0 +1,79 @@
+/*---------------------------------------- ELEMENTOS --------------------------------------*/
+.elementos {
+  /*height: 90px;*/
+}
+
+/*table tr.elementos {*/
+table.elementos {
+  /*text-align: center;*/
+  -webkit-box-shadow: 0 0 25px #000000;
+  box-shadow: 0 0 5px #000000;
+  border-radius: 12px;
+  /*INTERNET EXPLORER*/
+  filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=3, OffY=3, Color='gray', Positive='true');
+  background-color: #FFFFFF;
+  border: solid 1px #000000;
+  background-image: url("../../webroot/img/Imagenes/fondo-formulario.gif");
+}
+
+.elementos h1 {
+  font-size: 28px;
+  letter-spacing: -1px;
+  padding: 23px 0 0 20px;
+  color: #000000;
+}
+
+.elementos h2 {
+  font-size: 12px;
+  letter-spacing: -1px;
+  padding: 0px 0 0 0px;
+  color: #004990;
+  background: #F1F4F0;
+}
+
+/*
+.elementos span {
+	font-size: 12px;
+	letter-spacing: -1px;
+	padding: 0px 0 0 0px;
+	color: #004990;
+	background: #F1F4F0;
+}
+*/
+.elementotitulocampo {
+  font-size: 12px;
+  letter-spacing: -1px;
+  padding: 0px 0 0 0px;
+  color: #004990;
+  /*background: #F1F4F0;*/
+}
+
+.elementos table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.elementos td {
+  padding: 2px;
+  /*2px;*/
+}
+
+.elementos td.controlcombo {
+  padding: 0px;
+  /*2px;*/
+}
+
+.elementotabla {
+  font-size: 12px;
+  height: 0px;
+  /*No se aplica pero se deja*/
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+/*# sourceMappingURL=elementos.css.map */
